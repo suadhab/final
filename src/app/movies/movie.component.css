@@ -1,0 +1,13 @@
+.card-deck{ width: 1200px;}
+.card{ margin: auto; margin:10px 10px 10px 10px}
+.card-body{width: 400px; height: 400px; text-align: center;}
+.card-title{text-align: center;padding-left: 100px;}
+.card-text{width: 550px; text-align: center;}
+p{font-size: 10pt;}
+th{width: 200px; text-align: center; }
+nav{background-color:silver;}
+jumbotron{text-align: center;}
+form {padding-left: 450px;}
+.button{padding-left: 100px;}
+h6{text-align: center; }
+h2{text-align: center;}

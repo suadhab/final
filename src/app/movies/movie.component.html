@@ -1,0 +1,24 @@
+<div id="greeting" class="card-header">
+  <h2>
+      {{"Welcome Back "+userName+" !" }}
+  </h2>
+  <h6>{{message}}</h6>
+</div>
+
+
+    <div class="card-deck"  >
+        <div class="card" *ngFor="let movie of movies" >
+            
+            <img [src]="movie.img"  [style.height.px]="200">
+          <div class="card-body">
+            <h5 class="card-title">{{movie.name | uppercase}}</h5>
+            <p class="card-text">{{movie.description}}</p>
+            <p class="card-text">Rating :<i class="fas fa-star"></i>{{movie.rating}}</p>
+            <p class="card-text">Category :{{movie.category}}<img *ngIf="movie.award" width="50px" height="30px" [src]="movie.award"></p>
+            <p class="card-text">Cast :{{movie.actor}}</p>
+            
+          </div>
+        </div>
+        
+      </div>
+   
